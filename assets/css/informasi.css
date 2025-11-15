@@ -1,0 +1,214 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('./../fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./../fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./../fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+    :root {
+      --primary-red: #b30000;
+      --dark-bg: #121212;
+      --text-light: #f5f5f5;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--dark-bg);
+      color: var(--text-light);
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: var(--primary-red) !important;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #ffdede !important;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: #fff !important;
+      font-weight: 600;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px 50px;
+      background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+    }
+
+    .hero-logo {
+      width: 100px;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.4));
+    }
+    
+    .btn-input {
+      display: inline-block;
+      background-color: var(--primary-red);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0 2px 6px rgba(179, 0, 0, 0.4);
+    }
+    
+    .btn-input:hover {
+      background-color: #e60000;
+      box-shadow: 0 4px 10px rgba(230, 0, 0, 0.5);
+      transform: translateY(-2px);
+    }
+
+
+    table {
+      width: 100%;
+      background-color: #1a1a1a;
+      color: var(--text-light);
+      border-collapse: collapse;
+      margin-bottom: 50px;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #333;
+    }
+
+    th {
+      background-color: var(--primary-red);
+    }
+
+    tr:nth-child(even) {
+      background-color: #222;
+    }
+
+    /* ===== ALERT STYLE ===== */
+.alert {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  animation: fadeIn 0.6s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Warna untuk alert sukses */
+.alert-success {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border-left: 6px solid #198754;
+}
+
+/* Warna untuk alert gagal */
+.alert-danger {
+  background-color: #f8d7da;
+  color: #842029;
+  border-left: 6px solid #dc3545;
+}
+
+/* Animasi fade in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Tombol close (opsional) */
+.alert .close-btn {
+  float: right;
+  font-weight: bold;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.alert .close-btn:hover {
+  opacity: 0.6;
+}
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2);
+}
+
+.btn-danger {
+  background-color: var(--primary-red);
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #d11a1a;
+}
+
+/* ===== MODERN FOOTER ===== */
+.footer-modern {
+  position: relative;
+  width: 100%;
+  padding: 18px 10px;
+  text-align: center;
+  font-size: 14px;
+
+  /* Modern look */
+  background: rgba(20, 20, 20, 0.8);
+  backdrop-filter: blur(6px);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.4);
+
+  /* Space so it doesn't collide with bottom navbar */
+  margin-bottom: 60px;
+}
+
+.footer-modern p {
+  margin: 0;
+  color: #e1e1e1;
+}
+
+.footer-modern .footer-author {
+  color: var(--primary-red);
+  font-weight: 600;
+}
+
+/* ===== SUPER WAH AUTHOR STYLE ===== */
+.footer-author {
+  font-weight: 700;
+  background: linear-gradient(45deg, #ff1a1a, #ff4d4d, #ff1a1a);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: glowText 3s ease-in-out infinite, textShine 4s linear infinite;
+  text-shadow:
+      0 0 8px rgba(255, 50, 50, 0.6),
+      0 0 14px rgba(255, 0, 0, 0.5),
+      0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+/* Animasi glow halus */
+@keyframes glowText {
+  0%   { text-shadow: 0 0 6px rgba(255, 70, 70, 0.5), 0 0 12px rgba(255, 0, 0, 0.4); }
+  50%  { text-shadow: 0 0 12px rgba(255, 80, 80, 0.9), 0 0 26px rgba(255, 10, 10, 0.8); }
+  100% { text-shadow: 0 0 6px rgba(255, 70, 70, 0.5), 0 0 12px rgba(255, 0, 0, 0.4); }
+}
+
+/* Animasi shine berjalan */
+@keyframes textShine {
+  0% { background-position: 0%; }
+  100% { background-position: 200%; }
+}
