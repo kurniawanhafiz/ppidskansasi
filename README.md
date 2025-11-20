@@ -1,4 +1,4 @@
-# PPID SKANSA SIV1
+# PPID SKANSASI Versi awal
 
 Ini adalah project aplikasi **PPID (Pejabat Pengelola Informasi dan Dokumentasi)** untuk **SMK Negeri 1 Sijunjung**, dikembangkan oleh **Kurniawan Hafiz** (@justfiz) sebagai bagian dari latihan pengembangan web dinamis berbasis PHP.
 
