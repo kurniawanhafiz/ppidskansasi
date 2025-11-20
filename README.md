@@ -26,7 +26,7 @@ Aplikasi ini bertujuan untuk memberikan akses informasi publik secara sederhana,
 
 ## Link Website
 Lihat live aplikasinya di sini:  
-https://ppidskansasi.infinityfree.me/informasi.php
+https://ppidskansasi.infinityfree.me
 
 ## Developer
 **Kurniawan Hafiz**  
