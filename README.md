@@ -31,7 +31,7 @@ https://ppidskansasi.infinityfree.me
 ## Developer
 **Kurniawan Hafiz**  
 Pelajar Kelas 12 TKJ - SMK Negeri 1 Sijunjung  
-Email: kurniawanhafizzz@gmail.com  
+Email: fizallinone@gmail.com  
 Instagram: https://instagram.com/kurniawanhafizzz
 
 ---
